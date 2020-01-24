@@ -3,7 +3,7 @@ void main()
 {
 int dt,fc;
 char tov;
-printf("Enter the Distance travelled\n");//prints the statement
+printf("Enter the Distance travelled\n");//print the statements
 scanf("%d",&dt);
 printf("Enter the type of vehicle\n");
 scanf(" %c",&tov);
