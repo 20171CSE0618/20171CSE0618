@@ -3,9 +3,9 @@ void main()
 {
 int dt,fc;
 char tov;
-printf("enter the distance travelled\n");
+printf("Enter the distance travelled\n");
 scanf("%d",&dt);
-printf("enter the type of vehicle\n");
+printf("Enter the type of vehicle\n");
 scanf(" %c",&tov);
 if(tov=='M')
 {
