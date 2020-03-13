@@ -1,10 +1,47 @@
 <html>
 <head>
 <title>iframe</title>
+<style>
+a.high:hover{
+color:red;
+}
+p::first-letter{
+color:red;
+font-size:xx-large;
+}
+img{
+opacity:0.5;
+}
+img:hover{
+opacity:1.0;
+}
+
+div.first{
+border:2px solid black;
+background:url(/home/exam1/Downloads/1.jpeg) repeat;
+}
+div.second{
+margin:50px;
+opacity:0.6;
+background-color:yellow;
+border:1px solid black;
+}
+div.second p{
+font-weight:bold;
+margin:5%;
+}
+</style>
 </head>
 <body>
 <iframe src="/home/exam1/html1.html" name="iframe_a"></iframe>
 
-<p><a href="https://www.facebook.com" target="iframe_a">Load new web page</a></p>
+<p><a class="high"href="https://www.facebook.com" target="iframe_a">Load new web page</a></p>
+<p>The fnek fnke kek</p>
+<img src="/home/exam1/Downloads/72975551.cms.jpeg" />
+<div class="first">
+<div class="second">
+<p>THIS IS A TEXT</p>
+</div>
+</div>
 </body>
 </html>
